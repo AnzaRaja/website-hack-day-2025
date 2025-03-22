@@ -31,6 +31,37 @@ body {
     color: #ffffff;
 }
 
+.home {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
 .content {
     padding: 40px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 100px;
+}
+
+.technical {
+    background-color: rgba(246, 223, 239, 1);
+    height: 400px;
+    padding: 0px;
+}
+
+.bio {
+    height: 300px;
+}
+
+.introduction {
+    background-color: rgb(229, 207, 224, 1);
+    padding: 0px;
+}
+.contact{
+    background-color: rgba(251, 237, 250, 1)
 }
